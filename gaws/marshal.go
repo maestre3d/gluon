@@ -5,7 +5,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	json "github.com/json-iterator/go"
-	"github.com/neutrinocorp/gluon"
+	"github.com/maestre3d/gluon"
 )
 
 var ErrCannotUnmarshalSnsMessage = errors.New("gluon: Cannot unmarshal AWS SNS message")

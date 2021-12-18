@@ -9,8 +9,8 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/google/uuid"
-	"github.com/neutrinocorp/gluon"
-	"github.com/neutrinocorp/gluon/gaws"
+	"github.com/maestre3d/gluon"
+	"github.com/maestre3d/gluon/gaws"
 )
 
 type ItemPaid struct {
@@ -58,7 +58,7 @@ func registerEventSchemas(bus *gluon.Bus) {
 	bus.RegisterSchema(ItemPaid{},
 		gluon.WithTopic("ncorp.places.marketplace.prod.2.event.item.paid"),
 		gluon.WithSource("ncorp-places-marketplace-prod"),
-		gluon.WithSchemaName("https://places.neutrinocorp.org/engineering/docs/apis/streams#ItemPaid"))
+		gluon.WithSchemaName("https://places.maestre3d.org/engineering/docs/apis/streams#ItemPaid"))
 }
 
 func subscribeToMessages(bus *gluon.Bus) {

@@ -26,7 +26,7 @@ const (
 // Generated topic names may be used along with wildcards to filter messages (only if infrastructure has that feature,
 // like RabbitMQ).
 //
-// (e.g. Filter all user commands: org.neutrinocorp.iam.command.user.*)
+// (e.g. Filter all user commands: org.maestre3d.iam.command.user.*)
 func GenerateTopicName(args TopicGeneratorArgs) string {
 	builder := strings.Builder{}
 	builder.WriteString(args.ReversedDomain + ".")

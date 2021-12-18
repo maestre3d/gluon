@@ -1,7 +1,7 @@
 package glocal
 
 import (
-	"github.com/neutrinocorp/gluon"
+	"github.com/maestre3d/gluon"
 )
 
 type partition struct {

@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/neutrinocorp/gluon"
-	"github.com/neutrinocorp/gluon/glocal"
-	_ "github.com/neutrinocorp/gluon/glocal"
+	"github.com/maestre3d/gluon"
+	"github.com/maestre3d/gluon/glocal"
+	_ "github.com/maestre3d/gluon/glocal"
 )
 
 type ItemPaid struct {

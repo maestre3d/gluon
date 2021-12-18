@@ -3,7 +3,7 @@ package gkafka
 import (
 	"context"
 
-	"github.com/neutrinocorp/gluon"
+	"github.com/maestre3d/gluon"
 )
 
 type consumerStrategy interface {

@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 
 	"github.com/Shopify/sarama"
-	"github.com/neutrinocorp/gluon"
+	"github.com/maestre3d/gluon"
 )
 
 type driver struct {

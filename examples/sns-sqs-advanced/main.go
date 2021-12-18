@@ -9,8 +9,8 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/google/uuid"
-	"github.com/neutrinocorp/gluon"
-	"github.com/neutrinocorp/gluon/gaws"
+	"github.com/maestre3d/gluon"
+	"github.com/maestre3d/gluon/gaws"
 )
 
 type ItemPaid struct {
